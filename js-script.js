@@ -39,7 +39,7 @@ function prepareGame() {
     // Changes the 2nd text and label
     document.getElementById("displayText").innerHTML = "Have a guess";
     document.getElementById("label").innerHTML = "Click button below to restart";
-    // Edits the button's text and attributes so that we can reset
+    // Edits the start button's text and attributes so that we can reset
     document.getElementById("startButton").outerHTML = "<button id=\"startButton\" class=\"btn btn-outline-dark\" onclick=\"restartGame()\">";
     document.getElementById("startButton").innerHTML = "Restart";
     // Generates all the buttons acording to the user's input
